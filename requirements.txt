@@ -1,0 +1,18 @@
+langchain 
+langgraph 
+langchain-openai 
+langchain-groq 
+mcp 
+requests 
+python-dotenv
+uvicorn
+# mcp-inspector
+fastmcp
+mcp-server
+modelcontextprotocol
+bs4
+duckduckgo_search
+git+https://github.com/modelcontextprotocol/python-sdk.git
+langchain-mcp-adapters
+langchain_core
+# fastmcp.transports

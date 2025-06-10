@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+      "horoscope-server": {
+        "url": "http://localhost:8001/mcp",
+        "transport": "streamable-http"
+      },
+      "duckduckgo-server": {
+        "url": "http://localhost:8002/mcp",
+        "transport": "streamable-http"
+      }
+    }
+  }

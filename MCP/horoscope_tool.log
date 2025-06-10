@@ -1,0 +1,121 @@
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager shutting down
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager started
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:root:API response: {'data': {'date': '10-06-2025', 'profession': 'Your team efforts are excelling today. This sense of collaboration will fuel your passion.', 'love': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'luck': 'Don’t count on others to bring you luck', 'emotions': 'Forgiving and forgetting will bring inner peace.', 'creationTime': 1748723402173, 'year': None, 'zodiac': 'Libra', 'combinedResult': '<p>Personal:\nHold on to your heart. It can be easy to go headfirst into a romance, but give it time.\n</p><p>Travel:\nNew faces and places are appealing, but so too is enjoying where you are.\n</p><p>Luck:\nDon’t count on others to bring you luck\n</p><p>Profession:\nYour team efforts are excelling today. This sense of collaboration will fuel your passion.\n</p><p>Health:\nIf getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.\n</p><p>Emotions:\nForgiving and forgetting will bring inner peace.</p>', 'languageId': 1, 'health': 'If getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.', 'updationTime': 1748723402173, 'language': 'English', 'personal': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'result': None, 'cheatId': 2059, 'month': None, 'id': 246139, 'time': None, 'weekDate': None, 'travel': 'New faces and places are appealing, but so too is enjoying where you are.'}, 'status': 'success'}
+INFO:root:Generated horoscope for Libra: 🔮 Horoscope for *Libra* (DAILY) on 2025-06-10:
+
+Personal:
+Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.
+
+Travel:
+New faces and places are appealing, but so too is enjoying where you are.
+
+Luck:
+Don’t count on others to bring you luck
+
+Profession:
+Your team efforts are excelling today. This sense of collaboration will fuel your passion.
+
+Health:
+If getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.
+
+Emotions:
+Forgiving and forgetting will bring inner peace.
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager shutting down
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager started
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:root:API response: {'data': {'date': '10-06-2025', 'profession': 'Your team efforts are excelling today. This sense of collaboration will fuel your passion.', 'love': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'luck': 'Don’t count on others to bring you luck', 'emotions': 'Forgiving and forgetting will bring inner peace.', 'creationTime': 1748723402173, 'year': None, 'zodiac': 'Libra', 'combinedResult': '<p>Personal:\nHold on to your heart. It can be easy to go headfirst into a romance, but give it time.\n</p><p>Travel:\nNew faces and places are appealing, but so too is enjoying where you are.\n</p><p>Luck:\nDon’t count on others to bring you luck\n</p><p>Profession:\nYour team efforts are excelling today. This sense of collaboration will fuel your passion.\n</p><p>Health:\nIf getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.\n</p><p>Emotions:\nForgiving and forgetting will bring inner peace.</p>', 'languageId': 1, 'health': 'If getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.', 'updationTime': 1748723402173, 'language': 'English', 'personal': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'result': None, 'cheatId': 2059, 'month': None, 'id': 246139, 'time': None, 'weekDate': None, 'travel': 'New faces and places are appealing, but so too is enjoying where you are.'}, 'status': 'success'}
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager shutting down
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager started
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager shutting down
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager started
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager shutting down
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager started
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:root:API response: {'data': {'date': '10-06-2025', 'profession': 'Your team efforts are excelling today. This sense of collaboration will fuel your passion.', 'love': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'luck': 'Don’t count on others to bring you luck', 'emotions': 'Forgiving and forgetting will bring inner peace.', 'creationTime': 1748723402173, 'year': None, 'zodiac': 'Libra', 'combinedResult': '<p>Personal:\nHold on to your heart. It can be easy to go headfirst into a romance, but give it time.\n</p><p>Travel:\nNew faces and places are appealing, but so too is enjoying where you are.\n</p><p>Luck:\nDon’t count on others to bring you luck\n</p><p>Profession:\nYour team efforts are excelling today. This sense of collaboration will fuel your passion.\n</p><p>Health:\nIf getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.\n</p><p>Emotions:\nForgiving and forgetting will bring inner peace.</p>', 'languageId': 1, 'health': 'If getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.', 'updationTime': 1748723402173, 'language': 'English', 'personal': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'result': None, 'cheatId': 2059, 'month': None, 'id': 246139, 'time': None, 'weekDate': None, 'travel': 'New faces and places are appealing, but so too is enjoying where you are.'}, 'status': 'success'}
+WARNING:root:Failed to validate request: 22 validation errors for ClientRequest
+PingRequest.method
+  Input should be 'ping' [type=literal_error, input_value='ToolExecution', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+InitializeRequest.method
+  Input should be 'initialize' [type=literal_error, input_value='ToolExecution', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+InitializeRequest.params.protocolVersion
+  Field required [type=missing, input_value={'name': 'get_horoscope',...roscope_type': 'DAILY'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+InitializeRequest.params.capabilities
+  Field required [type=missing, input_value={'name': 'get_horoscope',...roscope_type': 'DAILY'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+InitializeRequest.params.clientInfo
+  Field required [type=missing, input_value={'name': 'get_horoscope',...roscope_type': 'DAILY'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+CompleteRequest.method
+  Input should be 'completion/complete' [type=literal_error, input_value='ToolExecution', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+CompleteRequest.params.ref
+  Field required [type=missing, input_value={'name': 'get_horoscope',...roscope_type': 'DAILY'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+CompleteRequest.params.argument
+  Field required [type=missing, input_value={'name': 'get_horoscope',...roscope_type': 'DAILY'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+SetLevelRequest.method
+  Input should be 'logging/setLevel' [type=literal_error, input_value='ToolExecution', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+SetLevelRequest.params.level
+  Field required [type=missing, input_value={'name': 'get_horoscope',...roscope_type': 'DAILY'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+GetPromptRequest.method
+  Input should be 'prompts/get' [type=literal_error, input_value='ToolExecution', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+ListPromptsRequest.method
+  Input should be 'prompts/list' [type=literal_error, input_value='ToolExecution', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+ListResourcesRequest.method
+  Input should be 'resources/list' [type=literal_error, input_value='ToolExecution', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+ListResourceTemplatesRequest.method
+  Input should be 'resources/templates/list' [type=literal_error, input_value='ToolExecution', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+ReadResourceRequest.method
+  Input should be 'resources/read' [type=literal_error, input_value='ToolExecution', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+ReadResourceRequest.params.uri
+  Field required [type=missing, input_value={'name': 'get_horoscope',...roscope_type': 'DAILY'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+SubscribeRequest.method
+  Input should be 'resources/subscribe' [type=literal_error, input_value='ToolExecution', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+SubscribeRequest.params.uri
+  Field required [type=missing, input_value={'name': 'get_horoscope',...roscope_type': 'DAILY'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+UnsubscribeRequest.method
+  Input should be 'resources/unsubscribe' [type=literal_error, input_value='ToolExecution', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+UnsubscribeRequest.params.uri
+  Field required [type=missing, input_value={'name': 'get_horoscope',...roscope_type': 'DAILY'}}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.11/v/missing
+CallToolRequest.method
+  Input should be 'tools/call' [type=literal_error, input_value='ToolExecution', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+ListToolsRequest.method
+  Input should be 'tools/list' [type=literal_error, input_value='ToolExecution', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.11/v/literal_error
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:root:API response: {'data': {'date': '10-06-2025', 'profession': 'Your team efforts are excelling today. This sense of collaboration will fuel your passion.', 'love': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'luck': 'Don’t count on others to bring you luck', 'emotions': 'Forgiving and forgetting will bring inner peace.', 'creationTime': 1748723402173, 'year': None, 'zodiac': 'Libra', 'combinedResult': '<p>Personal:\nHold on to your heart. It can be easy to go headfirst into a romance, but give it time.\n</p><p>Travel:\nNew faces and places are appealing, but so too is enjoying where you are.\n</p><p>Luck:\nDon’t count on others to bring you luck\n</p><p>Profession:\nYour team efforts are excelling today. This sense of collaboration will fuel your passion.\n</p><p>Health:\nIf getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.\n</p><p>Emotions:\nForgiving and forgetting will bring inner peace.</p>', 'languageId': 1, 'health': 'If getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.', 'updationTime': 1748723402173, 'language': 'English', 'personal': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'result': None, 'cheatId': 2059, 'month': None, 'id': 246139, 'time': None, 'weekDate': None, 'travel': 'New faces and places are appealing, but so too is enjoying where you are.'}, 'status': 'success'}
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:root:API response: {'data': {'date': '10-06-2025', 'profession': 'Your team efforts are excelling today. This sense of collaboration will fuel your passion.', 'love': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'luck': 'Don’t count on others to bring you luck', 'emotions': 'Forgiving and forgetting will bring inner peace.', 'creationTime': 1748723402173, 'year': None, 'zodiac': 'Libra', 'combinedResult': '<p>Personal:\nHold on to your heart. It can be easy to go headfirst into a romance, but give it time.\n</p><p>Travel:\nNew faces and places are appealing, but so too is enjoying where you are.\n</p><p>Luck:\nDon’t count on others to bring you luck\n</p><p>Profession:\nYour team efforts are excelling today. This sense of collaboration will fuel your passion.\n</p><p>Health:\nIf getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.\n</p><p>Emotions:\nForgiving and forgetting will bring inner peace.</p>', 'languageId': 1, 'health': 'If getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.', 'updationTime': 1748723402173, 'language': 'English', 'personal': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'result': None, 'cheatId': 2059, 'month': None, 'id': 246139, 'time': None, 'weekDate': None, 'travel': 'New faces and places are appealing, but so too is enjoying where you are.'}, 'status': 'success'}
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager shutting down
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager started
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:root:API response: {'data': {'date': '10-06-2025', 'profession': 'Your team efforts are excelling today. This sense of collaboration will fuel your passion.', 'love': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'luck': 'Don’t count on others to bring you luck', 'emotions': 'Forgiving and forgetting will bring inner peace.', 'creationTime': 1748723402173, 'year': None, 'zodiac': 'Libra', 'combinedResult': '<p>Personal:\nHold on to your heart. It can be easy to go headfirst into a romance, but give it time.\n</p><p>Travel:\nNew faces and places are appealing, but so too is enjoying where you are.\n</p><p>Luck:\nDon’t count on others to bring you luck\n</p><p>Profession:\nYour team efforts are excelling today. This sense of collaboration will fuel your passion.\n</p><p>Health:\nIf getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.\n</p><p>Emotions:\nForgiving and forgetting will bring inner peace.</p>', 'languageId': 1, 'health': 'If getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.', 'updationTime': 1748723402173, 'language': 'English', 'personal': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'result': None, 'cheatId': 2059, 'month': None, 'id': 246139, 'time': None, 'weekDate': None, 'travel': 'New faces and places are appealing, but so too is enjoying where you are.'}, 'status': 'success'}
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager shutting down
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager started
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:root:API response: {'data': {'date': '10-06-2025', 'profession': 'Your team efforts are excelling today. This sense of collaboration will fuel your passion.', 'love': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'luck': 'Don’t count on others to bring you luck', 'emotions': 'Forgiving and forgetting will bring inner peace.', 'creationTime': 1748723402173, 'year': None, 'zodiac': 'Libra', 'combinedResult': '<p>Personal:\nHold on to your heart. It can be easy to go headfirst into a romance, but give it time.\n</p><p>Travel:\nNew faces and places are appealing, but so too is enjoying where you are.\n</p><p>Luck:\nDon’t count on others to bring you luck\n</p><p>Profession:\nYour team efforts are excelling today. This sense of collaboration will fuel your passion.\n</p><p>Health:\nIf getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.\n</p><p>Emotions:\nForgiving and forgetting will bring inner peace.</p>', 'languageId': 1, 'health': 'If getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.', 'updationTime': 1748723402173, 'language': 'English', 'personal': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'result': None, 'cheatId': 2059, 'month': None, 'id': 246139, 'time': None, 'weekDate': None, 'travel': 'New faces and places are appealing, but so too is enjoying where you are.'}, 'status': 'success'}
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager shutting down
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager started
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager shutting down
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager started
+INFO:mcp.server.lowlevel.server:Processing request of type CallToolRequest
+INFO:root:API response: {'data': {'date': '10-06-2025', 'profession': 'Your team efforts are excelling today. This sense of collaboration will fuel your passion.', 'love': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'luck': 'Don’t count on others to bring you luck', 'emotions': 'Forgiving and forgetting will bring inner peace.', 'creationTime': 1748723402173, 'year': None, 'zodiac': 'Libra', 'combinedResult': '<p>Personal:\nHold on to your heart. It can be easy to go headfirst into a romance, but give it time.\n</p><p>Travel:\nNew faces and places are appealing, but so too is enjoying where you are.\n</p><p>Luck:\nDon’t count on others to bring you luck\n</p><p>Profession:\nYour team efforts are excelling today. This sense of collaboration will fuel your passion.\n</p><p>Health:\nIf getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.\n</p><p>Emotions:\nForgiving and forgetting will bring inner peace.</p>', 'languageId': 1, 'health': 'If getting all your fruits and vegetables in is a challenge, then consider fun ways to incorporate them. It can be simple things like a morning smoothie, or some fruit in your yoghurt.', 'updationTime': 1748723402173, 'language': 'English', 'personal': 'Hold on to your heart. It can be easy to go headfirst into a romance, but give it time.', 'result': None, 'cheatId': 2059, 'month': None, 'id': 246139, 'time': None, 'weekDate': None, 'travel': 'New faces and places are appealing, but so too is enjoying where you are.'}, 'status': 'success'}
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager shutting down
