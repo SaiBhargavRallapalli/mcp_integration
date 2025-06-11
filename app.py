@@ -1,7 +1,6 @@
+from fastapi import FastAPI, HTTPException
+from pydantic import BaseModel
 from langchain_groq import ChatGroq
-from langchain_mcp_adapters import tools
-print(dir(tools))
-from langchain_openai import AzureChatOpenAI
 from langgraph.graph import StateGraph, END
 from typing import TypedDict, Annotated, List
 import operator
@@ -12,25 +11,24 @@ import logging
 from dotenv import load_dotenv
 import os
 
-
-load_dotenv()
+# Configure logging
 logging.basicConfig(filename="app.log", level=logging.INFO)
+load_dotenv()
 
+app = FastAPI(title="Grok MCP Query API")
+
+# Define request model
+class QueryRequest(BaseModel):
+    query: str
+
+# Define LangGraph state
 class GraphState(TypedDict):
     messages: Annotated[List[HumanMessage | AIMessage | ToolMessage], operator.add]
     tools_called: List[str]
 
-async def setup_llm_and_tools(use_groq=True):
+async def setup_llm_and_tools():
     tools = await load_mcp_tools("mcp_config.json")
-    if use_groq:
-        llm = ChatGroq(model="llama3-8b-8192", api_key=os.getenv("GROQ_API_KEY"))
-    else:
-        llm = AzureChatOpenAI(
-            azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-            api_key=os.getenv("AZURE_OPENAI_API_KEY"),
-            api_version=os.getenv("AZURE_OPENAI_API_VERSION"),
-            deployment_name=os.getenv("AZURE_OPENAI_DEPLOYMENT_NAME")
-        )
+    llm = ChatGroq(model="llama3-8b-8192", api_key=os.getenv("GROQ_API_KEY"))
     return llm.bind_tools(tools), tools
 
 async def llm_node(state: GraphState, llm):
@@ -49,30 +47,40 @@ async def tool_node(state: GraphState, tools):
         results.append(ToolMessage(content=str(result), tool_call_id=call["id"]))
     return {"messages": results}
 
+async def fallback_node(state: GraphState, llm):
+    logging.info("Using fallback LLM node")
+    response = await llm.ainvoke(state["messages"])
+    return {"messages": [response], "tools_called": state.get("tools_called", [])}
+
 def should_continue(state: GraphState):
     last_message = state["messages"][-1]
-    return "continue" if hasattr(last_message, "tool_calls") and last_message.tool_calls else "end"
+    return "tools" if hasattr(last_message, "tool_calls") and last_message.tool_calls else "fallback"
 
-async def main(prompt: str, use_groq=True):
-    llm, tools = await setup_llm_and_tools(use_groq)
+# Initialize LangGraph workflow
+async def create_workflow():
+    llm, tools = await setup_llm_and_tools()
     workflow = StateGraph(GraphState)
     workflow.add_node("llm", lambda state: llm_node(state, llm))
     workflow.add_node("tools", lambda state: tool_node(state, tools))
+    workflow.add_node("fallback", lambda state: fallback_node(state, llm))
     workflow.set_entry_point("llm")
-    workflow.add_conditional_edges("llm", should_continue, {"continue": "tools", "end": END})
+    workflow.add_conditional_edges("llm", should_continue, {"tools": "tools", "fallback": "fallback"})
     workflow.add_edge("tools", "llm")
-    app = workflow.compile()
-    
-    result = await app.ainvoke({"messages": [HumanMessage(content=prompt)], "tools_called": []})
-    logging.info(f"Tools called: {result['tools_called']}")
-    return result["messages"][-1].content
+    workflow.add_edge("fallback", END)
+    return workflow.compile()
 
-if __name__ == "__main__":
-    prompts = [
-        "What's the daily horoscope for Virgo?",
-        "What's the monthly horoscope for Leo?",
-        "Search for recent AI news"
-    ]
-    for prompt in prompts:
-        result = asyncio.run(main(prompt, use_groq=True))
-        print(f"Prompt: {prompt}\nResponse: {result}\n")
+@app.on_event("startup")
+async def startup_event():
+    app.state.workflow = await create_workflow()
+
+@app.post("/query")
+async def process_query(request: QueryRequest):
+    try:
+        result = await app.state.workflow.ainvoke(
+            {"messages": [HumanMessage(content=request.query)], "tools_called": []}
+        )
+        logging.info(f"Tools called: {result['tools_called']}")
+        return {"response": result["messages"][-1].content, "tools_called": result["tools_called"]}
+    except Exception as e:
+        logging.error(f"Query processing failed: {str(e)}")
+        raise HTTPException(status_code=500, detail=str(e))

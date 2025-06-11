@@ -16,3 +16,4 @@ git+https://github.com/modelcontextprotocol/python-sdk.git
 langchain-mcp-adapters
 langchain_core
 # fastmcp.transports
+fastapi
