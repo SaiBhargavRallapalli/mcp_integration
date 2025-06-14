@@ -11,3 +11,4 @@ INFO:primp:response: https://lite.duckduckgo.com/lite/ 200
 INFO:root:Results: AI News & Artificial Intelligence | TechCrunch: News coverage on artificial intelligence and machine...
 INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager shutting down
 INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager started
+INFO:mcp.server.streamable_http_manager:StreamableHTTP session manager shutting down

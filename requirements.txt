@@ -17,3 +17,4 @@ langchain-mcp-adapters
 langchain_core
 # fastmcp.transports
 fastapi
+unidecode
